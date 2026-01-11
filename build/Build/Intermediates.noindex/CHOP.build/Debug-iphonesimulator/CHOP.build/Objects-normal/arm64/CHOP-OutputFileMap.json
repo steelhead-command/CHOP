@@ -1,0 +1,278 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOP-master.dia",
+    "emit-module-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOP-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOP-master-emit-module.dia",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOP-master.swiftdeps"
+  },
+  "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/App/CHOPApp.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/CHOPApp~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/App/ContentView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Extensions/Color+Hex.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Extensions/TimeInterval+Formatting.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/TimeInterval+Formatting~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Axe.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Axe~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/DailyDeals.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Furnace.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Furnace~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/GameSave.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameSave~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Gathering.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Gathering~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Inventory.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Plant.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/PlayerState.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Recipe.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Run.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/Statistics.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Models/WoodType.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/WoodType~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Services/AudioManager.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AudioManager~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Services/GameStateManager.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GameStateManager~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Services/HapticManager.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HapticManager~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Forest/ForestView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Furnace/FurnaceDetailView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/FurnaceDetailView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Gathering/GatheringHubView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/GatheringHubView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Home/AxeSelectionView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/AxeSelectionView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Home/HomesteadView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Results/ResultsView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView~partial.swiftmodule"
+  },
+  "/Users/lukestanley/CHOP/CHOP/Views/Store/HardwareStoreView.swift" : {
+    "const-values" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.swiftconstvalues",
+    "dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.d",
+    "diagnostics" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.dia",
+    "index-unit-output-path" : "/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.o",
+    "llvm-bc" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.bc",
+    "object" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.o",
+    "swift-dependencies" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.swiftdeps",
+    "swiftmodule" : "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView~partial.swiftmodule"
+  }
+}

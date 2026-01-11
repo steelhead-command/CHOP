@@ -1,0 +1,18 @@
+"/Users/lukestanley/CHOP/CHOP/Models/Plant.swift":
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.swiftdeps"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.dia"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.swiftconstvalues"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Plant.d"
+"/Users/lukestanley/CHOP/CHOP/Models/PlayerState.swift":
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.swiftconstvalues"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.d"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.swiftdeps"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.dia"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/PlayerState.o"
+"/Users/lukestanley/CHOP/CHOP/Models/Recipe.swift":
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.swiftdeps"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.dia"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.o"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.swiftconstvalues"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Recipe.d"

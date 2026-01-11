@@ -1,0 +1,24 @@
+"/Users/lukestanley/CHOP/CHOP/Extensions/Color+Hex.swift":
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.swiftconstvalues"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.dia"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.swiftdeps"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Color+Hex.d"
+"/Users/lukestanley/CHOP/CHOP/Models/DailyDeals.swift":
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.d"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.swiftconstvalues"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.dia"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/DailyDeals.swiftdeps"
+"/Users/lukestanley/CHOP/CHOP/App/ContentView.swift":
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.dia"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.swiftdeps"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.d"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.o"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ContentView.swiftconstvalues"
+"/Users/lukestanley/CHOP/CHOP/Views/Forest/ForestView.swift":
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.d"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.dia"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.swiftconstvalues"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.o"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ForestView.swiftdeps"

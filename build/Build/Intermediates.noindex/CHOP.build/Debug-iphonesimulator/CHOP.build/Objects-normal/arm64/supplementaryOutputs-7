@@ -1,0 +1,18 @@
+"/Users/lukestanley/CHOP/CHOP/Models/Statistics.swift":
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.dia"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.swiftconstvalues"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.d"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Statistics.swiftdeps"
+"/Users/lukestanley/CHOP/CHOP/Models/Run.swift":
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.d"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.dia"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.swiftconstvalues"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Run.swiftdeps"
+"/Users/lukestanley/CHOP/CHOP/Views/Results/ResultsView.swift":
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.dia"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.swiftconstvalues"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.o"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.d"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/ResultsView.swiftdeps"

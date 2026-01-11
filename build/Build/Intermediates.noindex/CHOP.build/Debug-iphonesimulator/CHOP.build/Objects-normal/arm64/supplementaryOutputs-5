@@ -1,0 +1,18 @@
+"/Users/lukestanley/CHOP/CHOP/Views/Store/HardwareStoreView.swift":
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.swiftdeps"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.d"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.o"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.swiftconstvalues"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HardwareStoreView.dia"
+"/Users/lukestanley/CHOP/CHOP/Models/Inventory.swift":
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.swiftconstvalues"
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.swiftdeps"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.o"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.dia"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/Inventory.d"
+"/Users/lukestanley/CHOP/CHOP/Views/Home/HomesteadView.swift":
+  swift-dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.swiftdeps"
+  dependencies: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.d"
+  const-values: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.swiftconstvalues"
+  object: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.o"
+  diagnostics: "/Users/lukestanley/CHOP/build/Build/Intermediates.noindex/CHOP.build/Debug-iphonesimulator/CHOP.build/Objects-normal/arm64/HomesteadView.dia"

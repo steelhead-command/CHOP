@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A290D13C7E90192172A98 /* GatheringHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303C8AF27A8B2C8DCCD9D40 /* GatheringHubView.swift */; };
+		17BEFFFE9DB9185FFD95BDA0 /* HomesteadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A5E72D4EC80C2E7EA3077 /* HomesteadView.swift */; };
+		2A537A26082B989956359A02 /* CHOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810259AAE327B4CD6186B64C /* CHOPUITests.swift */; };
+		2BFA4C0C112B48762FEEEFE6 /* CHOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73860093C90BC18E71827359 /* CHOPTests.swift */; };
+		38C5C661BFD8A57DC71693B8 /* HardwareStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDA63E067F50F5C645A7D7 /* HardwareStoreView.swift */; };
+		3DDAAB0879C85546EB157A39 /* ForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AE58F5DE0B9C3865F88F3 /* ForestView.swift */; };
+		4A237A18DBBA266D35F2AD62 /* AxeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE82B21B151A5F03A0AD662 /* AxeSelectionView.swift */; };
+		523C81008591B4D746BF64DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5221F528BE04468E1678B /* Assets.xcassets */; };
+		5554540E396DA98F1CA3558A /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55640243594AE1376D0D74BC /* Run.swift */; };
+		59828B45B8629D2C02EB33AE /* CHOPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5952552AAC4E204460692499 /* CHOPApp.swift */; };
+		5D77A0466BCE050D7E454EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EA420388C65C55D519E27 /* ContentView.swift */; };
+		65CD91308EE00F5016ACEE2B /* WoodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB22EE448297D92F31FBDB /* WoodType.swift */; };
+		68886A928F6EB258BC8C5111 /* Axe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E6C1C1864FCCC9D66C0C0 /* Axe.swift */; };
+		69B968685E7C15F157958981 /* TimeInterval+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DAA2C69C7CF82F213C4D /* TimeInterval+Formatting.swift */; };
+		799151100C1B8E20E00F5645 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657643A8462985113A5DBF20 /* ResultsView.swift */; };
+		7E4A2E2A7656D96F706DEF0A /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0338CEEC064D984A2845DF4 /* AudioManager.swift */; };
+		7E4D335BEDE06121FE0E7912 /* FurnaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815BA7BF064863F7BE61AA57 /* FurnaceDetailView.swift */; };
+		BFA92648A5915D687CDE791C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7F2544AD8B91104166083 /* Recipe.swift */; };
+		CA4C67F3BC606121BD781346 /* DailyDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */; };
+		D14187D4F7F7F2539676F687 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44044435FE4C67A0395C6C47 /* Color+Hex.swift */; };
+		D83B17E9EF81B0B2D64D33C9 /* Furnace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB12C042A05C481CCB37EC /* Furnace.swift */; };
+		D8FF8645FF069FC846975B15 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B26F07067C9BF627B97E7 /* Inventory.swift */; };
+		DC06C746D9F2A893D56A3E10 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549004B0B82F611819540681 /* PlayerState.swift */; };
+		E06CB536A3EEFAB3A08E33FA /* GameStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC9B2F7613544CA6C337B /* GameStateManager.swift */; };
+		E1C8111DC0F787619C1E7ACE /* Gathering.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB80B9F00B461AE6BF350DB /* Gathering.swift */; };
+		E404D7921DC999B52756E8D0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F93C32FEAA2415836AAC5 /* HapticManager.swift */; };
+		F6016CC51BC679D613A38F6B /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAD2CEE12ECAEF2F031EE5 /* Plant.swift */; };
+		F8330F74FBA3E879AB3CF644 /* GameSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94801DE5BC7C406C4987FD10 /* GameSave.swift */; };
+		FCF370D5A0EF973AF23CE15F /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953604D927B503DA01EECF8 /* Statistics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50011CD0D482C11DA11B8A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA544628F1E3C91EE6D07DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD28E85C7909BF85F48082C7;
+			remoteInfo = CHOP;
+		};
+		840DD49720ED15A6DBE45734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA544628F1E3C91EE6D07DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD28E85C7909BF85F48082C7;
+			remoteInfo = CHOP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022230A0514F03F7C128659E /* CHOPUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CHOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0953604D927B503DA01EECF8 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		0B35DAA2C69C7CF82F213C4D /* TimeInterval+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Formatting.swift"; sourceTree = "<group>"; };
+		0CD5221F528BE04468E1678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		142AE58F5DE0B9C3865F88F3 /* ForestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestView.swift; sourceTree = "<group>"; };
+		1B7E6C1C1864FCCC9D66C0C0 /* Axe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axe.swift; sourceTree = "<group>"; };
+		1CE82B21B151A5F03A0AD662 /* AxeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxeSelectionView.swift; sourceTree = "<group>"; };
+		1E3BC9B2F7613544CA6C337B /* GameStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateManager.swift; sourceTree = "<group>"; };
+		2D7A5E72D4EC80C2E7EA3077 /* HomesteadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesteadView.swift; sourceTree = "<group>"; };
+		3303C8AF27A8B2C8DCCD9D40 /* GatheringHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatheringHubView.swift; sourceTree = "<group>"; };
+		431692F0A3240359FB767B35 /* CHOPTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CHOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44044435FE4C67A0395C6C47 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		45FDA63E067F50F5C645A7D7 /* HardwareStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareStoreView.swift; sourceTree = "<group>"; };
+		51114EB858B79274AC84D2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		539DF3DA07AA8D1E9E167433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		549004B0B82F611819540681 /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
+		55640243594AE1376D0D74BC /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		5952552AAC4E204460692499 /* CHOPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPApp.swift; sourceTree = "<group>"; };
+		5BEAD2CEE12ECAEF2F031EE5 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		5C4BA47150BC029934481A21 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		657643A8462985113A5DBF20 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		6E4EA420388C65C55D519E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		702E05A1F2B6762602EA710B /* CHOP.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CHOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73860093C90BC18E71827359 /* CHOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPTests.swift; sourceTree = "<group>"; };
+		7E7F93C32FEAA2415836AAC5 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		810259AAE327B4CD6186B64C /* CHOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPUITests.swift; sourceTree = "<group>"; };
+		815BA7BF064863F7BE61AA57 /* FurnaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnaceDetailView.swift; sourceTree = "<group>"; };
+		8EDB22EE448297D92F31FBDB /* WoodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodType.swift; sourceTree = "<group>"; };
+		94801DE5BC7C406C4987FD10 /* GameSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSave.swift; sourceTree = "<group>"; };
+		9FDB12C042A05C481CCB37EC /* Furnace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furnace.swift; sourceTree = "<group>"; };
+		ABB80B9F00B461AE6BF350DB /* Gathering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gathering.swift; sourceTree = "<group>"; };
+		B3EFFACCC66BB14F49FF9B6A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		BBBE84951E93D6378AEA42F7 /* CHOP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CHOP.entitlements; sourceTree = "<group>"; };
+		E0338CEEC064D984A2845DF4 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		E03B26F07067C9BF627B97E7 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		F79398D4CF67F5140BA9B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8D7F2544AD8B91104166083 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDeals.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0581DA99BC3AAD068339805F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E6C1C1864FCCC9D66C0C0 /* Axe.swift */,
+				FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */,
+				9FDB12C042A05C481CCB37EC /* Furnace.swift */,
+				94801DE5BC7C406C4987FD10 /* GameSave.swift */,
+				ABB80B9F00B461AE6BF350DB /* Gathering.swift */,
+				E03B26F07067C9BF627B97E7 /* Inventory.swift */,
+				5BEAD2CEE12ECAEF2F031EE5 /* Plant.swift */,
+				549004B0B82F611819540681 /* PlayerState.swift */,
+				F8D7F2544AD8B91104166083 /* Recipe.swift */,
+				55640243594AE1376D0D74BC /* Run.swift */,
+				0953604D927B503DA01EECF8 /* Statistics.swift */,
+				8EDB22EE448297D92F31FBDB /* WoodType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D744C9D28F2EC87E5C404F1 /* CHOP */ = {
+			isa = PBXGroup;
+			children = (
+				9F35237645E254891EB220DD /* App */,
+				AF97779750DC32A1300A590F /* Extensions */,
+				F9E956726BD11655AE0D1B94 /* Game */,
+				0581DA99BC3AAD068339805F /* Models */,
+				790EB5EAB8FCEB7D4C9CF101 /* Resources */,
+				E9D3B8D84DE07B1CF41C6AB0 /* Services */,
+				FCE892D2559F886B90E3EBD5 /* Utilities */,
+				DC40C06BDC16961A71133F41 /* ViewModels */,
+				E495A49A58B643ABDC857591 /* Views */,
+			);
+			path = CHOP;
+			sourceTree = "<group>";
+		};
+		215E4FD6E9B96BCF0BE72131 = {
+			isa = PBXGroup;
+			children = (
+				0D744C9D28F2EC87E5C404F1 /* CHOP */,
+				D973FAF94A07B014E20DE987 /* CHOPTests */,
+				ED3F785A4137C621436A1D94 /* CHOPUITests */,
+				9D3C6069D9C827EFAC719285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22BBE0B9B1DA1C06BC666713 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				657643A8462985113A5DBF20 /* ResultsView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		35699BF4F1B90E460AC17F86 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3E94DA20C4758135B0082D9B /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		421FDB5210DE9ACC80EB65F7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5C4BA47150BC029934481A21 /* .gitkeep */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		790EB5EAB8FCEB7D4C9CF101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CD5221F528BE04468E1678B /* Assets.xcassets */,
+				BBBE84951E93D6378AEA42F7 /* CHOP.entitlements */,
+				F79398D4CF67F5140BA9B471 /* Info.plist */,
+				421FDB5210DE9ACC80EB65F7 /* Fonts */,
+				89752DBE34C5D10E2305EB14 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		89752DBE34C5D10E2305EB14 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B3EFFACCC66BB14F49FF9B6A /* .gitkeep */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8BB06DD44AA23A974EEA107A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1CE82B21B151A5F03A0AD662 /* AxeSelectionView.swift */,
+				2D7A5E72D4EC80C2E7EA3077 /* HomesteadView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9D3C6069D9C827EFAC719285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702E05A1F2B6762602EA710B /* CHOP.app */,
+				431692F0A3240359FB767B35 /* CHOPTests.xctest */,
+				022230A0514F03F7C128659E /* CHOPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F35237645E254891EB220DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5952552AAC4E204460692499 /* CHOPApp.swift */,
+				6E4EA420388C65C55D519E27 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB22D37D077A0F3BA0235C90 /* Chopping */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chopping;
+			sourceTree = "<group>";
+		};
+		AF97779750DC32A1300A590F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44044435FE4C67A0395C6C47 /* Color+Hex.swift */,
+				0B35DAA2C69C7CF82F213C4D /* TimeInterval+Formatting.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0A5526331790FBC2A4D3098 /* Forest */ = {
+			isa = PBXGroup;
+			children = (
+				142AE58F5DE0B9C3865F88F3 /* ForestView.swift */,
+			);
+			path = Forest;
+			sourceTree = "<group>";
+		};
+		D4B67005CDCB2A1DBA6CF398 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D8EB0FC9EC80245E91EA3084 /* Gathering */ = {
+			isa = PBXGroup;
+			children = (
+				3303C8AF27A8B2C8DCCD9D40 /* GatheringHubView.swift */,
+			);
+			path = Gathering;
+			sourceTree = "<group>";
+		};
+		D973FAF94A07B014E20DE987 /* CHOPTests */ = {
+			isa = PBXGroup;
+			children = (
+				73860093C90BC18E71827359 /* CHOPTests.swift */,
+				539DF3DA07AA8D1E9E167433 /* Info.plist */,
+			);
+			path = CHOPTests;
+			sourceTree = "<group>";
+		};
+		DACA341B35F0CB11A2019008 /* Furnace */ = {
+			isa = PBXGroup;
+			children = (
+				815BA7BF064863F7BE61AA57 /* FurnaceDetailView.swift */,
+			);
+			path = Furnace;
+			sourceTree = "<group>";
+		};
+		DC40C06BDC16961A71133F41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E495A49A58B643ABDC857591 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35699BF4F1B90E460AC17F86 /* Components */,
+				C0A5526331790FBC2A4D3098 /* Forest */,
+				DACA341B35F0CB11A2019008 /* Furnace */,
+				D8EB0FC9EC80245E91EA3084 /* Gathering */,
+				8BB06DD44AA23A974EEA107A /* Home */,
+				22BBE0B9B1DA1C06BC666713 /* Results */,
+				EB3537BFE7100A5EBED4D79C /* Store */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9D3B8D84DE07B1CF41C6AB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E0338CEEC064D984A2845DF4 /* AudioManager.swift */,
+				1E3BC9B2F7613544CA6C337B /* GameStateManager.swift */,
+				7E7F93C32FEAA2415836AAC5 /* HapticManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB3537BFE7100A5EBED4D79C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				45FDA63E067F50F5C645A7D7 /* HardwareStoreView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		ED3F785A4137C621436A1D94 /* CHOPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				810259AAE327B4CD6186B64C /* CHOPUITests.swift */,
+				51114EB858B79274AC84D2D3 /* Info.plist */,
+			);
+			path = CHOPUITests;
+			sourceTree = "<group>";
+		};
+		F9E956726BD11655AE0D1B94 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				D4B67005CDCB2A1DBA6CF398 /* Audio */,
+				AB22D37D077A0F3BA0235C90 /* Chopping */,
+				3E94DA20C4758135B0082D9B /* Haptics */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FCE892D2559F886B90E3EBD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4141E0E0D0D360BD6616D639 /* CHOPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA1B0EF1C997186C976F0C9 /* Build configuration list for PBXNativeTarget "CHOPUITests" */;
+			buildPhases = (
+				2B5C3D5D8A3D0B23D73E97FE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FF6BFF01919235CA47CDF3 /* PBXTargetDependency */,
+			);
+			name = CHOPUITests;
+			packageProductDependencies = (
+			);
+			productName = CHOPUITests;
+			productReference = 022230A0514F03F7C128659E /* CHOPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9853965CE03B9ED58DF5ABBE /* CHOPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBBB5B92384E16BBFE304B8 /* Build configuration list for PBXNativeTarget "CHOPTests" */;
+			buildPhases = (
+				203B808B563541A4A49B3C0B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68CD0A820AD23C5EEEDEE7A /* PBXTargetDependency */,
+			);
+			name = CHOPTests;
+			packageProductDependencies = (
+			);
+			productName = CHOPTests;
+			productReference = 431692F0A3240359FB767B35 /* CHOPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD28E85C7909BF85F48082C7 /* CHOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869DCCEB0190FE786C2BF8C1 /* Build configuration list for PBXNativeTarget "CHOP" */;
+			buildPhases = (
+				AF91359143859C9C510F04C0 /* Sources */,
+				1AF2A45B2F24C7CBAE3F90E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHOP;
+			packageProductDependencies = (
+			);
+			productName = CHOP;
+			productReference = 702E05A1F2B6762602EA710B /* CHOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA544628F1E3C91EE6D07DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4141E0E0D0D360BD6616D639 = {
+						DevelopmentTeam = "";
+						TestTargetID = AD28E85C7909BF85F48082C7;
+					};
+					9853965CE03B9ED58DF5ABBE = {
+						DevelopmentTeam = "";
+					};
+					AD28E85C7909BF85F48082C7 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 8207537FDA653BCF5C810E04 /* Build configuration list for PBXProject "CHOP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 215E4FD6E9B96BCF0BE72131;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD28E85C7909BF85F48082C7 /* CHOP */,
+				9853965CE03B9ED58DF5ABBE /* CHOPTests */,
+				4141E0E0D0D360BD6616D639 /* CHOPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF2A45B2F24C7CBAE3F90E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523C81008591B4D746BF64DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203B808B563541A4A49B3C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFA4C0C112B48762FEEEFE6 /* CHOPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5C3D5D8A3D0B23D73E97FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A537A26082B989956359A02 /* CHOPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF91359143859C9C510F04C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4A2E2A7656D96F706DEF0A /* AudioManager.swift in Sources */,
+				68886A928F6EB258BC8C5111 /* Axe.swift in Sources */,
+				4A237A18DBBA266D35F2AD62 /* AxeSelectionView.swift in Sources */,
+				59828B45B8629D2C02EB33AE /* CHOPApp.swift in Sources */,
+				D14187D4F7F7F2539676F687 /* Color+Hex.swift in Sources */,
+				5D77A0466BCE050D7E454EEB /* ContentView.swift in Sources */,
+				CA4C67F3BC606121BD781346 /* DailyDeals.swift in Sources */,
+				3DDAAB0879C85546EB157A39 /* ForestView.swift in Sources */,
+				D83B17E9EF81B0B2D64D33C9 /* Furnace.swift in Sources */,
+				7E4D335BEDE06121FE0E7912 /* FurnaceDetailView.swift in Sources */,
+				F8330F74FBA3E879AB3CF644 /* GameSave.swift in Sources */,
+				E06CB536A3EEFAB3A08E33FA /* GameStateManager.swift in Sources */,
+				E1C8111DC0F787619C1E7ACE /* Gathering.swift in Sources */,
+				041A290D13C7E90192172A98 /* GatheringHubView.swift in Sources */,
+				E404D7921DC999B52756E8D0 /* HapticManager.swift in Sources */,
+				38C5C661BFD8A57DC71693B8 /* HardwareStoreView.swift in Sources */,
+				17BEFFFE9DB9185FFD95BDA0 /* HomesteadView.swift in Sources */,
+				D8FF8645FF069FC846975B15 /* Inventory.swift in Sources */,
+				F6016CC51BC679D613A38F6B /* Plant.swift in Sources */,
+				DC06C746D9F2A893D56A3E10 /* PlayerState.swift in Sources */,
+				BFA92648A5915D687CDE791C /* Recipe.swift in Sources */,
+				799151100C1B8E20E00F5645 /* ResultsView.swift in Sources */,
+				5554540E396DA98F1CA3558A /* Run.swift in Sources */,
+				FCF370D5A0EF973AF23CE15F /* Statistics.swift in Sources */,
+				69B968685E7C15F157958981 /* TimeInterval+Formatting.swift in Sources */,
+				65CD91308EE00F5016ACEE2B /* WoodType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FF6BFF01919235CA47CDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD28E85C7909BF85F48082C7 /* CHOP */;
+			targetProxy = 50011CD0D482C11DA11B8A5B /* PBXContainerItemProxy */;
+		};
+		A68CD0A820AD23C5EEEDEE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD28E85C7909BF85F48082C7 /* CHOP */;
+			targetProxy = 840DD49720ED15A6DBE45734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2117F4A4A82F09555AC2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CHOP/Resources/CHOP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CHOP/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.game;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10750BF4261F9364B81214D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.CHOPTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHOP.app/CHOP";
+			};
+			name = Release;
+		};
+		33E9F4A15FF6CE0CE6106B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47AADD484562D92C0FE3B58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CHOP/Resources/CHOP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CHOP/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.game;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF7EF874BDE8A37BC3A1A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.CHOPUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHOP;
+			};
+			name = Release;
+		};
+		914B53EDF8BEA4E838D099F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.CHOPTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHOP.app/CHOP";
+			};
+			name = Debug;
+		};
+		A99183B130105E95B385FAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chop.CHOPUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHOP;
+			};
+			name = Debug;
+		};
+		AF2A95FA1041DF7AB8BA7BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8207537FDA653BCF5C810E04 /* Build configuration list for PBXProject "CHOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A95FA1041DF7AB8BA7BD8 /* Debug */,
+				33E9F4A15FF6CE0CE6106B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		869DCCEB0190FE786C2BF8C1 /* Build configuration list for PBXNativeTarget "CHOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2117F4A4A82F09555AC2FC /* Debug */,
+				47AADD484562D92C0FE3B58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9DBBB5B92384E16BBFE304B8 /* Build configuration list for PBXNativeTarget "CHOPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914B53EDF8BEA4E838D099F3 /* Debug */,
+				10750BF4261F9364B81214D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAA1B0EF1C997186C976F0C9 /* Build configuration list for PBXNativeTarget "CHOPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99183B130105E95B385FAD6 /* Debug */,
+				4BF7EF874BDE8A37BC3A1A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA544628F1E3C91EE6D07DF /* Project object */;
+}

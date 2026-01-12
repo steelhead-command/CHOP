@@ -40,6 +40,22 @@ enum WoodType: String, Codable, CaseIterable {
         }
     }
 
+    var grainColor: Color {
+        switch self {
+        case .soft: return Color(hex: "C4A074")   // Lighter pine grain
+        case .medium: return Color(hex: "A68B2E") // Golden oak grain
+        case .hard: return Color(hex: "7A5C1A")   // Rich walnut grain
+        }
+    }
+
+    var barkColor: Color {
+        switch self {
+        case .soft: return Color(hex: "6B4D32")   // Light bark
+        case .medium: return Color(hex: "5A4210") // Medium bark
+        case .hard: return Color(hex: "3D2E0D")   // Dark bark
+        }
+    }
+
     /// Burn time in minutes (for display)
     var burnTimeMinutes: Int {
         Int(burnTime / 60)

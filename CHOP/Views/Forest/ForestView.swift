@@ -5,6 +5,7 @@ struct ForestView: View {
     @EnvironmentObject var audioManager: AudioManager
     @Binding var currentScreen: AppScreen
 
+    @StateObject private var choppingState = ChoppingSceneState()
     @State private var runState: RunState?
     @State private var showNopePopup = false
     @State private var nopeMessage = "NOPE!"
@@ -20,20 +21,21 @@ struct ForestView: View {
 
     var body: some View {
         ZStack {
-            // Forest background
-            ForestBackground()
+            // Full chopping scene with background, log, block, axe
+            ChoppingScene(
+                sceneState: choppingState,
+                currentLog: runState?.currentLog,
+                equippedAxe: runState?.equippedAxe,
+                knotState: runState?.knotState,
+                onChop: handleChop
+            )
+            .modifier(ShakeEffect(shake: screenShake))
 
+            // HUD overlay
             VStack(spacing: 0) {
-                // HUD
                 ForestHUD(runState: runState)
                     .padding(.horizontal)
                     .padding(.top, 8)
-
-                Spacer()
-
-                // Chopping area
-                ChoppingArea(onChop: handleChop)
-                    .modifier(ShakeEffect(shake: screenShake))
 
                 Spacer()
 
@@ -141,12 +143,15 @@ struct ForestView: View {
         run.knotState = hasKnot ? .awaitingStrike(number: 1) : nil
         runState = run
         gameState.currentRun = run
+
+        // Reset animation state for new log
+        choppingState.prepareNewLog()
     }
 
     // MARK: - Chop Handling
 
-    private func handleChop() {
-        guard var run = runState, var log = run.currentLog else { return }
+    private func handleChop() -> Bool {
+        guard var run = runState, var log = run.currentLog else { return false }
 
         // Consume durability
         run.currentDurability -= 1
@@ -157,19 +162,19 @@ struct ForestView: View {
             runState = run
             gameState.currentRun = run
             endRun()
-            return
+            return false
         }
 
         log.currentChops += 1
 
         if log.hasKnot {
-            handleKnotChop(&run, &log)
+            return handleKnotChop(&run, &log)
         } else {
-            handleNormalChop(&run, &log)
+            return handleNormalChop(&run, &log)
         }
     }
 
-    private func handleNormalChop(_ run: inout RunState, _ log: inout Log) {
+    private func handleNormalChop(_ run: inout RunState, _ log: inout Log) -> Bool {
         if log.currentChops >= log.chopsRequired {
             // Log split successfully
             let wasOneChop = log.currentChops == 1
@@ -208,7 +213,13 @@ struct ForestView: View {
             run.currentLog = nil
             runState = run
             gameState.currentRun = run
-            generateNextLog()
+
+            // Generate next log after split animation
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                generateNextLog()
+            }
+
+            return true  // Log was split
 
         } else if log.currentChops >= 3 {
             // Strike! (3+ chops on a log)
@@ -220,18 +231,22 @@ struct ForestView: View {
             if run.strikes >= 3 {
                 endRun()
             } else {
-                generateNextLog()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    generateNextLog()
+                }
             }
+            return false
         } else {
             // Partial chop, continue
             HapticManager.shared.mediumTap()
             run.currentLog = log
             runState = run
             gameState.currentRun = run
+            return false  // Not split yet
         }
     }
 
-    private func handleKnotChop(_ run: inout RunState, _ log: inout Log) {
+    private func handleKnotChop(_ run: inout RunState, _ log: inout Log) -> Bool {
         // Simplified knot handling - in full implementation, this would use timing windows
         if log.currentChops >= 3 {
             // Knot broken successfully!
@@ -248,7 +263,11 @@ struct ForestView: View {
             run.currentLog = nil
             runState = run
             gameState.currentRun = run
-            generateNextLog()
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                generateNextLog()
+            }
+            return true
         } else {
             // Knot strike in progress
             HapticManager.shared.knotStrike()
@@ -256,6 +275,7 @@ struct ForestView: View {
             run.knotState = .awaitingStrike(number: log.currentChops + 1)
             runState = run
             gameState.currentRun = run
+            return false
         }
     }
 
@@ -279,22 +299,6 @@ struct ForestView: View {
                 screenShake = false
             }
         }
-    }
-}
-
-// MARK: - Forest Background
-
-struct ForestBackground: View {
-    var body: some View {
-        LinearGradient(
-            colors: [
-                Color(hex: "87CEEB"),  // Sky
-                Color(hex: "5D8A66")   // Forest
-            ],
-            startPoint: .top,
-            endPoint: .bottom
-        )
-        .ignoresSafeArea()
     }
 }
 
@@ -340,45 +344,6 @@ struct ForestHUD: View {
         .padding()
         .background(Color.black.opacity(0.2))
         .cornerRadius(12)
-    }
-}
-
-// MARK: - Chopping Area
-
-struct ChoppingArea: View {
-    let onChop: () -> Void
-
-    @State private var isPressed = false
-
-    var body: some View {
-        VStack(spacing: 16) {
-            // Log placeholder
-            RoundedRectangle(cornerRadius: 8)
-                .fill(Color(hex: "8B6914"))
-                .frame(width: 100, height: 60)
-                .shadow(color: .black.opacity(0.3), radius: 4, y: 2)
-
-            // Chopping block
-            RoundedRectangle(cornerRadius: 4)
-                .fill(Color(hex: "6B4423"))
-                .frame(width: 140, height: 30)
-        }
-        .scaleEffect(isPressed ? 0.95 : 1.0)
-        .gesture(
-            DragGesture(minimumDistance: 50)
-                .onChanged { value in
-                    // Check for downward swipe
-                    if value.translation.height > 50 && abs(value.translation.width) < value.translation.height {
-                        isPressed = true
-                    }
-                }
-                .onEnded { value in
-                    if value.translation.height > 50 && abs(value.translation.width) < value.translation.height {
-                        onChop()
-                    }
-                    isPressed = false
-                }
-        )
     }
 }
 

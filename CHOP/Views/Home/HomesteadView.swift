@@ -138,7 +138,7 @@ struct ForestButton: View {
                     .font(.system(size: 48))
                     .foregroundColor(.forestGreen)
 
-                Text("TAP TO CHOP")
+                Text("SWIPE TO CHOP")
                     .font(.caption)
                     .fontWeight(.semibold)
                     .foregroundColor(.chopText)

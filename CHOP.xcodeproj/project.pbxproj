@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		041A290D13C7E90192172A98 /* GatheringHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303C8AF27A8B2C8DCCD9D40 /* GatheringHubView.swift */; };
 		17BEFFFE9DB9185FFD95BDA0 /* HomesteadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A5E72D4EC80C2E7EA3077 /* HomesteadView.swift */; };
+		1FB8C3786A1D2BE64A31D9BA /* AxeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A44497FD8A2779946118970 /* AxeView.swift */; };
+		2A3EF8E37F30F8D8E2DDE941 /* ChoppingSceneTestHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2119235725C3609B202B /* ChoppingSceneTestHarness.swift */; };
 		2A537A26082B989956359A02 /* CHOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810259AAE327B4CD6186B64C /* CHOPUITests.swift */; };
 		2BFA4C0C112B48762FEEEFE6 /* CHOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73860093C90BC18E71827359 /* CHOPTests.swift */; };
+		30ADE7D8A5C7D64C92F2A5CC /* KnotIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621231A6FFD611E161A5CF7C /* KnotIndicator.swift */; };
+		316406706E6EF748AF2E9FDE /* ChoppingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F4AF94CA1B855EE221666 /* ChoppingScene.swift */; };
 		38C5C661BFD8A57DC71693B8 /* HardwareStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDA63E067F50F5C645A7D7 /* HardwareStoreView.swift */; };
 		3DDAAB0879C85546EB157A39 /* ForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AE58F5DE0B9C3865F88F3 /* ForestView.swift */; };
 		4A237A18DBBA266D35F2AD62 /* AxeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE82B21B151A5F03A0AD662 /* AxeSelectionView.swift */; };
 		523C81008591B4D746BF64DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5221F528BE04468E1678B /* Assets.xcassets */; };
 		5554540E396DA98F1CA3558A /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55640243594AE1376D0D74BC /* Run.swift */; };
+		556A607E2C11E3DD0CE65C63 /* ChoppingBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD794789DC52F8AC904CF1B /* ChoppingBlockView.swift */; };
 		59828B45B8629D2C02EB33AE /* CHOPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5952552AAC4E204460692499 /* CHOPApp.swift */; };
 		5D77A0466BCE050D7E454EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EA420388C65C55D519E27 /* ContentView.swift */; };
+		5ECF63A451865A8CB6F46E7C /* ChoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423147B4D4B2452928D5CDEE /* ChoppingUITests.swift */; };
+		659C680BA9C4388C4D37657F /* DebugChoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667160D6850C2BB0112133E /* DebugChoppingView.swift */; };
 		65CD91308EE00F5016ACEE2B /* WoodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB22EE448297D92F31FBDB /* WoodType.swift */; };
+		66B4CDA747E7C03619630F35 /* ChoppingAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44803ECD2EBA8BCBA0EE18 /* ChoppingAnimationState.swift */; };
 		68886A928F6EB258BC8C5111 /* Axe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E6C1C1864FCCC9D66C0C0 /* Axe.swift */; };
 		69B968685E7C15F157958981 /* TimeInterval+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DAA2C69C7CF82F213C4D /* TimeInterval+Formatting.swift */; };
+		71935A445C0630AA7414BF1F /* WoodSplitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA71294F1DD705F056D8CE6 /* WoodSplitParticles.swift */; };
 		799151100C1B8E20E00F5645 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657643A8462985113A5DBF20 /* ResultsView.swift */; };
 		7E4A2E2A7656D96F706DEF0A /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0338CEEC064D984A2845DF4 /* AudioManager.swift */; };
 		7E4D335BEDE06121FE0E7912 /* FurnaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815BA7BF064863F7BE61AA57 /* FurnaceDetailView.swift */; };
+		81A9B6352053FD0F34279F61 /* InstructionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A29CB7FE0A8D323EA02F3 /* InstructionOverlay.swift */; };
+		8BDD193ED769A42CDB03028E /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697D1CB0E8DE4D6F10DCFBA /* LogView.swift */; };
+		B4EAAE04C5C13C93FD8249E6 /* ForestSceneBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8FA6F0BD5557D399C4268 /* ForestSceneBackground.swift */; };
 		BFA92648A5915D687CDE791C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7F2544AD8B91104166083 /* Recipe.swift */; };
 		CA4C67F3BC606121BD781346 /* DailyDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */; };
 		D14187D4F7F7F2539676F687 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44044435FE4C67A0395C6C47 /* Color+Hex.swift */; };
@@ -32,6 +44,7 @@
 		DC06C746D9F2A893D56A3E10 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549004B0B82F611819540681 /* PlayerState.swift */; };
 		E06CB536A3EEFAB3A08E33FA /* GameStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BC9B2F7613544CA6C337B /* GameStateManager.swift */; };
 		E1C8111DC0F787619C1E7ACE /* Gathering.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB80B9F00B461AE6BF350DB /* Gathering.swift */; };
+		E2D16387032D67992F5F11FB /* AnimationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F57CFAB0319DF401D674 /* AnimationStateTests.swift */; };
 		E404D7921DC999B52756E8D0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F93C32FEAA2415836AAC5 /* HapticManager.swift */; };
 		F6016CC51BC679D613A38F6B /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAD2CEE12ECAEF2F031EE5 /* Plant.swift */; };
 		F8330F74FBA3E879AB3CF644 /* GameSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94801DE5BC7C406C4987FD10 /* GameSave.swift */; };
@@ -66,6 +79,7 @@
 		1E3BC9B2F7613544CA6C337B /* GameStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateManager.swift; sourceTree = "<group>"; };
 		2D7A5E72D4EC80C2E7EA3077 /* HomesteadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesteadView.swift; sourceTree = "<group>"; };
 		3303C8AF27A8B2C8DCCD9D40 /* GatheringHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatheringHubView.swift; sourceTree = "<group>"; };
+		423147B4D4B2452928D5CDEE /* ChoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppingUITests.swift; sourceTree = "<group>"; };
 		431692F0A3240359FB767B35 /* CHOPTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CHOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44044435FE4C67A0395C6C47 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		45FDA63E067F50F5C645A7D7 /* HardwareStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareStoreView.swift; sourceTree = "<group>"; };
@@ -73,27 +87,39 @@
 		539DF3DA07AA8D1E9E167433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		549004B0B82F611819540681 /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
 		55640243594AE1376D0D74BC /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		5667160D6850C2BB0112133E /* DebugChoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugChoppingView.swift; sourceTree = "<group>"; };
 		5952552AAC4E204460692499 /* CHOPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPApp.swift; sourceTree = "<group>"; };
 		5BEAD2CEE12ECAEF2F031EE5 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		5C4BA47150BC029934481A21 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		621231A6FFD611E161A5CF7C /* KnotIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnotIndicator.swift; sourceTree = "<group>"; };
 		657643A8462985113A5DBF20 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		6E4EA420388C65C55D519E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		702E05A1F2B6762602EA710B /* CHOP.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CHOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73860093C90BC18E71827359 /* CHOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPTests.swift; sourceTree = "<group>"; };
 		7E7F93C32FEAA2415836AAC5 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		80B8FA6F0BD5557D399C4268 /* ForestSceneBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestSceneBackground.swift; sourceTree = "<group>"; };
 		810259AAE327B4CD6186B64C /* CHOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOPUITests.swift; sourceTree = "<group>"; };
+		813F4AF94CA1B855EE221666 /* ChoppingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppingScene.swift; sourceTree = "<group>"; };
 		815BA7BF064863F7BE61AA57 /* FurnaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnaceDetailView.swift; sourceTree = "<group>"; };
+		8A44497FD8A2779946118970 /* AxeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxeView.swift; sourceTree = "<group>"; };
+		8B44803ECD2EBA8BCBA0EE18 /* ChoppingAnimationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppingAnimationState.swift; sourceTree = "<group>"; };
 		8EDB22EE448297D92F31FBDB /* WoodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodType.swift; sourceTree = "<group>"; };
 		94801DE5BC7C406C4987FD10 /* GameSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSave.swift; sourceTree = "<group>"; };
 		9FDB12C042A05C481CCB37EC /* Furnace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furnace.swift; sourceTree = "<group>"; };
+		A697D1CB0E8DE4D6F10DCFBA /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		ABB80B9F00B461AE6BF350DB /* Gathering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gathering.swift; sourceTree = "<group>"; };
 		B3EFFACCC66BB14F49FF9B6A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		BBBE84951E93D6378AEA42F7 /* CHOP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CHOP.entitlements; sourceTree = "<group>"; };
+		CB6D2119235725C3609B202B /* ChoppingSceneTestHarness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppingSceneTestHarness.swift; sourceTree = "<group>"; };
+		D3D3F57CFAB0319DF401D674 /* AnimationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStateTests.swift; sourceTree = "<group>"; };
+		DA3A29CB7FE0A8D323EA02F3 /* InstructionOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionOverlay.swift; sourceTree = "<group>"; };
+		DCD794789DC52F8AC904CF1B /* ChoppingBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppingBlockView.swift; sourceTree = "<group>"; };
 		E0338CEEC064D984A2845DF4 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		E03B26F07067C9BF627B97E7 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		F79398D4CF67F5140BA9B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F8D7F2544AD8B91104166083 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDeals.swift; sourceTree = "<group>"; };
+		FEA71294F1DD705F056D8CE6 /* WoodSplitParticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodSplitParticles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -101,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7E6C1C1864FCCC9D66C0C0 /* Axe.swift */,
+				8B44803ECD2EBA8BCBA0EE18 /* ChoppingAnimationState.swift */,
 				FB8B62959ACDC9C183D1BDCD /* DailyDeals.swift */,
 				9FDB12C042A05C481CCB37EC /* Furnace.swift */,
 				94801DE5BC7C406C4987FD10 /* GameSave.swift */,
@@ -227,6 +254,22 @@
 			path = Chopping;
 			sourceTree = "<group>";
 		};
+		AF7BCAEC9642A8306D36E8D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A44497FD8A2779946118970 /* AxeView.swift */,
+				DCD794789DC52F8AC904CF1B /* ChoppingBlockView.swift */,
+				813F4AF94CA1B855EE221666 /* ChoppingScene.swift */,
+				CB6D2119235725C3609B202B /* ChoppingSceneTestHarness.swift */,
+				80B8FA6F0BD5557D399C4268 /* ForestSceneBackground.swift */,
+				DA3A29CB7FE0A8D323EA02F3 /* InstructionOverlay.swift */,
+				621231A6FFD611E161A5CF7C /* KnotIndicator.swift */,
+				A697D1CB0E8DE4D6F10DCFBA /* LogView.swift */,
+				FEA71294F1DD705F056D8CE6 /* WoodSplitParticles.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		AF97779750DC32A1300A590F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,7 +282,9 @@
 		C0A5526331790FBC2A4D3098 /* Forest */ = {
 			isa = PBXGroup;
 			children = (
+				5667160D6850C2BB0112133E /* DebugChoppingView.swift */,
 				142AE58F5DE0B9C3865F88F3 /* ForestView.swift */,
+				AF7BCAEC9642A8306D36E8D5 /* Components */,
 			);
 			path = Forest;
 			sourceTree = "<group>";
@@ -262,6 +307,7 @@
 		D973FAF94A07B014E20DE987 /* CHOPTests */ = {
 			isa = PBXGroup;
 			children = (
+				D3D3F57CFAB0319DF401D674 /* AnimationStateTests.swift */,
 				73860093C90BC18E71827359 /* CHOPTests.swift */,
 				539DF3DA07AA8D1E9E167433 /* Info.plist */,
 			);
@@ -318,6 +364,7 @@
 		ED3F785A4137C621436A1D94 /* CHOPUITests */ = {
 			isa = PBXGroup;
 			children = (
+				423147B4D4B2452928D5CDEE /* ChoppingUITests.swift */,
 				810259AAE327B4CD6186B64C /* CHOPUITests.swift */,
 				51114EB858B79274AC84D2D3 /* Info.plist */,
 			);
@@ -456,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D16387032D67992F5F11FB /* AnimationStateTests.swift in Sources */,
 				2BFA4C0C112B48762FEEEFE6 /* CHOPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A537A26082B989956359A02 /* CHOPUITests.swift in Sources */,
+				5ECF63A451865A8CB6F46E7C /* ChoppingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,10 +524,17 @@
 				7E4A2E2A7656D96F706DEF0A /* AudioManager.swift in Sources */,
 				68886A928F6EB258BC8C5111 /* Axe.swift in Sources */,
 				4A237A18DBBA266D35F2AD62 /* AxeSelectionView.swift in Sources */,
+				1FB8C3786A1D2BE64A31D9BA /* AxeView.swift in Sources */,
 				59828B45B8629D2C02EB33AE /* CHOPApp.swift in Sources */,
+				66B4CDA747E7C03619630F35 /* ChoppingAnimationState.swift in Sources */,
+				556A607E2C11E3DD0CE65C63 /* ChoppingBlockView.swift in Sources */,
+				316406706E6EF748AF2E9FDE /* ChoppingScene.swift in Sources */,
+				2A3EF8E37F30F8D8E2DDE941 /* ChoppingSceneTestHarness.swift in Sources */,
 				D14187D4F7F7F2539676F687 /* Color+Hex.swift in Sources */,
 				5D77A0466BCE050D7E454EEB /* ContentView.swift in Sources */,
 				CA4C67F3BC606121BD781346 /* DailyDeals.swift in Sources */,
+				659C680BA9C4388C4D37657F /* DebugChoppingView.swift in Sources */,
+				B4EAAE04C5C13C93FD8249E6 /* ForestSceneBackground.swift in Sources */,
 				3DDAAB0879C85546EB157A39 /* ForestView.swift in Sources */,
 				D83B17E9EF81B0B2D64D33C9 /* Furnace.swift in Sources */,
 				7E4D335BEDE06121FE0E7912 /* FurnaceDetailView.swift in Sources */,
@@ -489,7 +545,10 @@
 				E404D7921DC999B52756E8D0 /* HapticManager.swift in Sources */,
 				38C5C661BFD8A57DC71693B8 /* HardwareStoreView.swift in Sources */,
 				17BEFFFE9DB9185FFD95BDA0 /* HomesteadView.swift in Sources */,
+				81A9B6352053FD0F34279F61 /* InstructionOverlay.swift in Sources */,
 				D8FF8645FF069FC846975B15 /* Inventory.swift in Sources */,
+				30ADE7D8A5C7D64C92F2A5CC /* KnotIndicator.swift in Sources */,
+				8BDD193ED769A42CDB03028E /* LogView.swift in Sources */,
 				F6016CC51BC679D613A38F6B /* Plant.swift in Sources */,
 				DC06C746D9F2A893D56A3E10 /* PlayerState.swift in Sources */,
 				BFA92648A5915D687CDE791C /* Recipe.swift in Sources */,
@@ -497,6 +556,7 @@
 				5554540E396DA98F1CA3558A /* Run.swift in Sources */,
 				FCF370D5A0EF973AF23CE15F /* Statistics.swift in Sources */,
 				69B968685E7C15F157958981 /* TimeInterval+Formatting.swift in Sources */,
+				71935A445C0630AA7414BF1F /* WoodSplitParticles.swift in Sources */,
 				65CD91308EE00F5016ACEE2B /* WoodType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
